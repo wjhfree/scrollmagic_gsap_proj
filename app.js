@@ -19,7 +19,7 @@ var navTweenTo = TweenMax.to('.nav', 1, {
 
 var scene1 = new ScrollMagic.Scene({
     triggerElement: '.nav-bar',
-    triggerHook: 0.1
+    triggerHook: 0.075
 })
   .setTween(navTweenFrom)
   .addIndicators()
@@ -27,7 +27,7 @@ var scene1 = new ScrollMagic.Scene({
 
 var scene2 = new ScrollMagic.Scene({
   triggerElement: '.welcome',
-  triggerHook: 0.1
+  triggerHook: 0.075
 })
   .setTween(navTweenTo)
   .addIndicators()
